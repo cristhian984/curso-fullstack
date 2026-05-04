@@ -17,6 +17,7 @@ header {
     justify-content: space-between;
     height: 100px;
     align-items: center;
+    border-bottom: 5px solid #191970;
 }
 
 .contenrHeader {
