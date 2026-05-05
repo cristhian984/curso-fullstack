@@ -54,3 +54,33 @@ header nav ul a:hover {
 header h1 {
     margin: 20px;
 }
+
+.contentMain {
+    max-width: 1000px;
+    margin: 0 auto;
+    width: 100%;
+
+}
+
+.carousel article {
+    margin-top: 20px;
+}
+
+.carousel img {
+    border-radius: 10px;
+
+
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+
+
+}
+.card {
+    background: #fff;
+    padding: 20px;
+}
