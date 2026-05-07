@@ -18,7 +18,7 @@ header {
     height: 100px;
     align-items: center;
     border-bottom: 5px solid #191970;
-    
+
 }
 
 .contenrHeader {
@@ -81,7 +81,7 @@ header h1 {
     justify-content: space-around;
     flex-wrap: wrap;
     padding: 20px;
-   
+
 
 
 
@@ -91,7 +91,28 @@ header h1 {
     background: #fff;
     padding: 20px;
     margin-bottom: 20px;
-     border: 1px solid grey;
-     border-radius: 10px;
+    border: 1px solid grey;
+    border-radius: 10px;
 
+}
+
+.extra {
+    background: #ddd;
+    padding: 30px;
+    text-align: center;
+}
+
+footer {
+    background: #222;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+}
+
+/*pagina sobre*/
+.paginaSobre h1 {
+    color: #191970;
+    padding-top: 10px;
+    border: 1px solid red;
 }
