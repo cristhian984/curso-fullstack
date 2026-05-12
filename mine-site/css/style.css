@@ -163,6 +163,7 @@ form .form-group {
     display: flex;
     flex-direction: column;
     margin-bottom: 20px;
+    
 }
 
 form label {
@@ -193,4 +194,7 @@ form button {
 }
 article a {
     text-decoration: none;
+}
+input[type="text"], textarea {
+    text-transform: capitalize;
 }

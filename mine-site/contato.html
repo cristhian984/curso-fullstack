@@ -28,7 +28,7 @@
         <main class="contentMain">
             <h1>Contato</h1>
             <section>
-                <form>
+                <form id="meuFormulario">
                     <article class="form-group">
                         <label for="nome">Nome</label>
                         <input type="text" id="nome" />
@@ -39,7 +39,7 @@
                         <input type="tel" id="telefone">
                     </article>
                     <article><label for="sexo">SEXO</label>
-                        <select name="" id="">
+                        <select id="sexo">
                             <option value="m">Masculino</option>
                             <option value="f">Feminino</option>
                         </select>
@@ -47,13 +47,13 @@
 
                     <article>
                         <h1>Deseja receber informações</h1>
-                        <label for="">sim?</label>
+                        <label for="s">sim?</label>
                         <input type="checkbox" id="s" />
 
                     </article>
 
                     <article class="form-group">
-                        <button>enviar</button>
+                        <button type="submit">enviar</button>
                     </article>
 
                     <article>
@@ -65,7 +65,7 @@
                 </form>
             </section>
     </div>
-    <script src="js/script.js"></script>
+    <script src="js/validacao.js"></script>
     <footer>
         <p>@ 2026 MC Máquinas</p>
     </footer>
