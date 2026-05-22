@@ -41,14 +41,6 @@ app.get('/home', (req, res) => {
 res.sendFile(__dirname + '/public/index.html');
 });
 
-
-
-
-
-
-
-
-
 //Executando um servidor
 
 app.listen(port, () => {

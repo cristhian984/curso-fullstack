@@ -1,0 +1,49 @@
+ body {
+    background: grey;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    background: white;
+    padding: 10px;
+}
+header {
+    background: rgb(46, 113, 163);
+    height: 100px;
+    
+}
+header h1 {
+    
+    color: white;
+    text-transform: uppercase;
+    padding: 35px 0 0 24px;
+}
+.card {
+    justify-content: center;
+    border: 1px solid red;
+    padding: 10px;
+    display: flex;
+
+}
+.cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+main section {
+    display: flex;
+    justify-content: space-around;
+
+
+}
+main section article {
+    max-width: 350px;
+    border: 1px solid red;
+    height: 200px;
+    width: 100%;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
