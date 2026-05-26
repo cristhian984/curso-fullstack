@@ -49,6 +49,41 @@ app.post("/listaNomes", (req, res) => {
 
 });
 
+//Criandop rota excluir
+app.delete("/listaNomes/:id", (req, res) => {
+    let id = req.params.id;
+    let index = buscarIdNomes(id);
+
+    //se não encontrar,retornar erro
+    if (index === -1) {
+        return res.status(404).send(`Nenhum nome com id ${id} foi encontrado`);
+
+    }
+
+    //splice
+    nomes.splice(index, 1);
+    return res.send(`Nomes com id ${req.params.id} excluida com sucesso`)
+
+});
+//rota para alterar
+app.put("/listaNomes/:id", (req,res) => {
+
+
+});
+
+
+
+
+
+
+
+//PEGAR a poisção ou index do elemneto do array por id
+function buscarIdNomes(id) {
+    //findIndex
+    return nomes.findIndex(nome => nome?.id == id);
+
+};
+
 
 
 
