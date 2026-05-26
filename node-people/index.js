@@ -66,7 +66,18 @@ app.delete("/listaNomes/:id", (req, res) => {
 
 });
 //rota para alterar
-app.put("/listaNomes/:id", (req,res) => {
+app.put("/listaNomes/:id", (req, res) => {
+    let index = buscarIdNomes(req.params.id);
+
+if (index === -1) {
+        return res.status(404).send(`Nenhum nome com id ${id} foi encontrado`);
+ 
+    }
+    nomes[index].nome = req.body.nome;
+    nomes[index].iadade = req.body.idade;
+    nomes[index].casado = req.body.casado
+    
+    res.json(nomes);
 
 
 });
